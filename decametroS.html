@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unidade de Comprimento</title>
+    <link rel="stylesheet" href="colorindoo.css"/>
+</head>
+<body>
+
+    <h1 id="titulo">Convertendo Decâmetro para os seus Submúltiplos </h1>
+
+    <h2 id="soma">Decâmetro(s) para Metro(s)</h2>
+    <input type="number" name="txtn1" id="txtn1" value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button1" type="button" value="m" onclick="soma()">
+    <div id="r">Resultado</div>
+    
+    <wbr/><h2 id="subt">Decâmetro(s) para Decímetro(s)</h2> 
+    <input type="number" name="txtn3" id="txtn3" value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button2" type="button" value="dm" onclick="subt()" >
+    <div id="re">Resultado</div>
+
+    <wbr/><h2 id="mult">Decâmetro(s) para Centímetro(s)</h2>
+    <input type="number" name="txtn5" id="txtn5"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button3" type="button" value="cm" onclick="mult()" >
+    <div id="res">Resultado</div>
+
+    <wbr/><h2 id="div">Decâmetro(s) para Milímetro(s)</h2>
+    <input type="number" name="txtn7" id="txtn7"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button4" type="button" value="mm" onclick="div()" >
+    <div id="resu">Resultado</div>
+
+    <wbr/><h2 id="nano">Decâmetro(s) para Micrômetro(s)</h2>
+    <input type="number" name="txtn9" id="txtn9" value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button5" type="button" value="µm" onclick="nano()">
+    <div id="resul">Resultado</div>
+    
+    <wbr/><h2 id="pic">Decâmetro(s) para Nanômetro(s)</h2> 
+    <input type="number" name="txtn11" id="txtn11" value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button6" type="button" value="nm" onclick="pic()" >
+    <div id="result">Resultado</div>
+
+    <wbr/><h2 id="fe">Decâmetro(s) para Picômetro(s)</h2>
+    <input type="number" name="txtn13" id="txtn13"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button7" type="button" value="pm" onclick="fe()" >
+    <div id="resulta">Resultado</div>
+
+    <wbr/><h2 id="att">Decâmetro(s) para Femtômetro(s)</h2>
+    <input type="number" name="txtn15" id="txtn15"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button8" type="button" value="fm" onclick="att()" >
+    <div id="resultad">Resultado</div>
+
+    
+    <wbr/><h2 id="zep">Decâmetro(s) para  Attômetro(s)</h2>
+    <input type="number" name="txtn17" id="txtn17"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button9" type="button" value="am" onclick="zep()" >
+    <div id="resultado">Resultado</div>
+
+    
+    <wbr/><h2 id="yoc">Decâmetro(s) para Zeptômetro(s)</h2>
+    <input type="number" name="txtn19" id="txtn19"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button10" type="button" value="zm" onclick="yoc()" >
+    <div id="resultado1">Resultado</div>
+
+    <wbr/><h2 id="me">Decâmetro(s) para Yoctômetro(s)</h2>
+    <input type="number" name="txtn21" id="txtn21"value="Digite o Valor em Decâmetro(s)" placeholder="Digite o Valor em Decâmetro(s)"> >
+    <input id="button11" type="button" value="ym" onclick="me()" >
+    <div id="resultado12">Resultado</div>
+
+
+
+
+
+    <script>
+        function soma () {
+    var tn1 = window.document.getElementById('txtn1')
+    var tn2 = window.document.querySelector('input#txtn2')
+    var r = window.document.getElementById('r')
+    var n1 = Number(tn1.value)
+    var n2 = 10
+    var s = n1 * n2
+    r.innerHTML = ` ${n1} Decâmetro(s) equivale a  <strong> ${s} <strong/> Metro(s) `
+}
+        function subt () {
+    var tn3 = window.document.getElementById('txtn3')
+    var tn4 = window.document.querySelector('input#txtn4')
+    var re = window.document.getElementById('re')
+    var n3 = Number(tn3.value)
+    var n4 = 100
+    var su = n3 * n4
+    re.innerHTML=` ${n3} Decâmetro(s)  equivale a  <strong> ${su }<strong/> Decímetro(s)`
+}
+
+        function mult () {
+    var tn5 = window.document.getElementById('txtn5')
+    var tn6 = window.document.getElementById('txtn6')
+    var res = window.document.getElementById('res')
+    var n5 = Number(tn5.value)
+    var n6 = 1000
+    var sul = n5 * n6
+    res.innerHTML=`${n5} Decâmetro(s) equivale a  <strong> ${sul} <strong/> Centímetro(s)`
+}
+
+        function div () {
+    var tn7 = window.document.getElementById('txtn7')
+    var tn8 = window.document.getElementById('txtn8')
+    var resu = window.document.getElementById('resu')
+    var n7 = Number(tn7.value)
+    var n8 =10000
+    var sulu = n7 * n8
+    resu.innerHTML=` ${n7} Decâmetro(s) equivale a  <strong> ${sulu} <strong/> Milímetro(s)`
+}
+
+function nano () {
+    var tn9 = window.document.getElementById('txtn9')
+    var tn10 = window.document.querySelector('input#txtn10')
+    var resul = window.document.getElementById('resul')
+    var n9 = Number(tn9.value)
+    var n10 = 10000000
+    var suluç = n9 * n10
+    resul.innerHTML = ` ${n9} Decâmetro(s) equivale a  <strong> ${suluç }<strong/> Micrômetro(s) `
+}
+        function pic () {
+    var tn11 = window.document.getElementById('txtn11')
+    var tn12 = window.document.getElementById('txtn12')
+    var result = window.document.getElementById('result')
+    var n11 = Number(tn11.value)
+    var n12 = 10000000000
+    var suluça = n11 * n12
+    result.innerHTML=` ${n11} Decâmetro(s)  equivale a  <strong> ${suluça} <strong/> Nanômetro(s)`
+}
+
+        function fe () {
+    var tn13 = window.document.getElementById('txtn13')
+    var tn14 = window.document.getElementById('txtn14')
+    var resulta = window.document.getElementById('resulta')
+    var n13 = Number(tn13.value)
+    var n14 = 10000000000000
+    var suluçao = n13 * n14
+    resulta.innerHTML=`${n13} Decâmetro(s) equivale a  <strong> ${suluçao} <strong/> Picômetro(s)`
+}
+
+        function att () {
+    var tn15 = window.document.getElementById('txtn15')
+    var tn16 = window.document.getElementById('txtn16')
+    var resultad = window.document.getElementById('resultad')
+    var n15 = Number(tn15.value)
+    var n16 =10000000000000000
+    var suluçao1 = n15 * n16
+    resultad.innerHTML=` ${n15} Decâmetro(s) equivale a  <strong> ${suluçao1} <strong/> Femtômetro(s)`
+}
+
+function zep () {
+    var tn17 = window.document.getElementById('txtn17')
+    var tn18 = window.document.getElementById('txtn18')
+    var resultado = window.document.getElementById('resultado')
+    var n17 = Number(tn17.value)
+    var n18 =10000000000000000000
+    var suluçao12 = n17 * n18
+    resultado.innerHTML=` ${n17} Decâmetro(s) equivale a  <strong> ${suluçao12} <strong/> Attômetro(s)`
+}
+
+function yoc () {
+
+    var tn19 = window.document.getElementById('txtn19')
+    var tn20 = window.document.getElementById('txtn20')
+    var resultado1 = window.document.getElementById('resultado1')
+    var n19 = Number(tn19.value)
+    var n20 =10000000000000000000000
+    var suluçao123 = n19 * n20
+    resultado1.innerHTML=` ${n19} Decâmetro(s) equivale a  <strong> ${suluçao123} <strong/> Zeptômetro(s)`
+}
+
+
+function me () {
+
+var tn21 = window.document.getElementById('txtn21')
+var tn22 = window.document.getElementById('txtn22')
+var resultado12 = window.document.getElementById('resultado12')
+var n21 = Number(tn21.value)
+var n22 =10000000000000000000000000
+var suluçao1234 = n21 * n22
+resultado12.innerHTML=` ${n21} Decâmetro(s) equivale a  <strong> ${suluçao1234} <strong/> Yoctômetro(s)`
+}
+
+    </script>
+
+<br/><br/><br/><br/><br/><h4 id="co">Decâmetro</h4>
+<h4 id="s">O que é</h4>
+<h5 id="c">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;O decâmetro, cujo símbolo é o (dam), consiste numa unidade da grandeza física de comprimento. É um múltiplo do metro.
+        No sistema internacional de unidades (SI), que denota um fator de 10¹, ou 10, já que um Decâmetro equivale a 10 metros.
+        <br/><br/><br/><br/><h4 id="conta">Como Converter ?</h4>
+        <h5 id="c">
+            
+      
+            1 Decâmetro > Metro ?
+            <br/>1 x 10
+            <br/>1 Decâmetro equivale a    10 Metros.
+            <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Decímetro ?
+            <br/>1 x 100
+            <br/>  1 Decâmetro equivale a  100 Decímetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Centímetro ?
+            <br/>1 x     1000
+            <br/> 1 Decâmetro equivale a       1000 Centímetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Milímetro  ?
+            <br/>1 x     10000
+            <br/> 1 Decâmetro equivale a  10000 Milímetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Micrômetro ?
+            <br/>1 x      10000000
+            <br/>1 Decâmetro equivale a 1e+7  ou 10000000 Micrômetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Nanômetro ?
+            <br/>1 x       10000000000
+            <br/>1 Decâmetro equivale a 1e+10  ou 10000000000 Nanômetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Picômetro ?
+            <br/>1 x      10000000000000
+            <br/>1 Decâmetro equivale a 1e+13 ou 10000000000000 Picômetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Femtômetro ?
+            <br/>1 x      10000000000000000
+            <br/>1 Decâmetro equivale a 1e+16 ou 10000000000000000 Femtômetros. <br/>
+            <br/>
+            <br/>
+            1 Decâmetro > Attômetro ?
+            <br/>1 x      10000000000000000000
+            <br/>1 Decâmetro equivale a 1e+19 ou 10000000000000000000 Attômetros.
+            <br/>
+            <br/>
+            1 Decâmetro > Zeptômetro ?
+            <br/>1 x      10000000000000000000000
+            <br/>1 Decâmetro equivale a 1e+22 ou 10000000000000000000000 Zeptômetros.<br/>
+            <br/>
+            1 Decâmetro > Yoctômetro ?
+            <br/>1 x      10000000000000000000000000
+            <br/>1 Decâmetro equivale a 1e+25 ou 10000000000000000000000000 Yoctômetros.
+        
+        </h5>
+
+    
+
+
+
+
+</p>
+</h5>
+
+<footer id="rodapee">
+    <p>Copyright &copy; 2020 - by Felipe Moura <br/>
+      <a id="ins" href="http://instagram.com/felipe_mouraaa" target="blank">instagram</a>
+  </p>
+</footer>
+
+
+    <script src="controller/damsController.js"></script>
+    <script src="su.js"></script>
+</body>
+<html>

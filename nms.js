@@ -1,0 +1,1 @@
+window.nms = new NmsController();

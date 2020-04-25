@@ -1,0 +1,1 @@
+window.hm = new HmmController();

@@ -1,0 +1,1 @@
+window.operatioon = new OperaaController();

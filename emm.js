@@ -1,0 +1,1 @@
+window.emm =  new EmmController()

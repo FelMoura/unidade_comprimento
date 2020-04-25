@@ -1,0 +1,1 @@
+window.mmm = new MmmController();

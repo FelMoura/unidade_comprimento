@@ -1,0 +1,1 @@
+window.fms = new FmsController();

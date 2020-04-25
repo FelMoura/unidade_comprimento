@@ -1,0 +1,1 @@
+window.zms = new ZmsController();

@@ -1,0 +1,1 @@
+window.pms = new PmsController();

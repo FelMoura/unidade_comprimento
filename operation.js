@@ -1,0 +1,1 @@
+window.operation = new damsController();

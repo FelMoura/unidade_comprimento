@@ -1,0 +1,1 @@
+window.mms = new MmsController();

@@ -1,0 +1,1 @@
+window.ams = new AmsController();

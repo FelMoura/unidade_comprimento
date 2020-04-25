@@ -1,0 +1,1 @@
+window.ymm = new YmmController();

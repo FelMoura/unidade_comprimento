@@ -1,0 +1,1 @@
+window.gms = new GmsController();

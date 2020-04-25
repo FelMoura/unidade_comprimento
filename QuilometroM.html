@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unidade de Comprimento</title>
+    <link rel="stylesheet" href="colorindoo.css"/>
+</head>
+<body>
+
+    <h1 id="titulo">Convertendo Quilômetro para os seus Múltiplos </h1>
+
+
+    <h2 id="subt">Quilômetro(s) para Megametro(s)</h2>
+    <input type="number" name="txtn7" id="txtn7"value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button2" type="button" value="Mm" onclick="subt()" >
+    <div id="resu">Resultado</div>
+
+    <wbr/><h2 id="mult">Quilômetro(s) para Gigametro(s)</h2>
+    <input type="number" name="txtn9" id="txtn9" value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button3" type="button" value="Gm" onclick="mult()">
+    <div id="resul">Resultado</div>
+    
+    <wbr/><h2 id="div">Quilômetro(s) para Terametro(s)</h2> 
+    <input type="number" name="txtn11" id="txtn11" value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button4" type="button" value="Tm" onclick="div()" >
+    <div id="result">Resultado</div>
+
+    <wbr/><h2 id="nano">Quilômetro(s) para Petametro(s)</h2>
+    <input type="number" name="txtn13" id="txtn13"value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button5" type="button" value="Pm" onclick="nano()" >
+    <div id="resulta">Resultado</div>
+
+    <wbr/><h2 id="pic">Quilômetro(s) para Exametro(s)</h2>
+    <input type="number" name="txtn15" id="txtn15" value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button6" type="button" value="Em" onclick="pic()" >
+    <div id="resultad">Resultado</div>
+
+    
+    <wbr/><h2 id="fe">Quilômetro(s) para  Zettametro(s)</h2>
+    <input type="number" name="txtn17" id="txtn17" value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button7" type="button" value="Zm" onclick="fe()" >
+    <div id="resultado">Resultado</div>
+
+    
+    <wbr/><h2 id="att">Quilômetro(s) para Yottametro(s)</h2>
+    <input type="number" name="txtn19" id="txtn19" value="Digite o Valor em Quilômetro(s)" placeholder="Digite o Valor em Quilômetro(s)"> >
+    <input id="button8" type="button" value="Ym" onclick="att()" >
+    <div id="resultado1">Resultado</div>
+
+
+
+
+
+    <script>
+
+
+        function subt () {
+    var tn7 = window.document.getElementById('txtn7')
+    var tn8 = window.document.getElementById('txtn8')
+    var resu = window.document.getElementById('resu')
+    var n7 = Number(tn7.value)
+    var n8 =1000
+    var sulu = n7 / n8
+    resu.innerHTML=` ${n7} Quilômetro(s) equivale a <strong> ${sulu} <strong/> Megametro(s)`
+}
+
+function mult () {
+    var tn9 = window.document.getElementById('txtn9')
+    var tn10 = window.document.querySelector('input#txtn10')
+    var resul = window.document.getElementById('resul')
+    var n9 = Number(tn9.value)
+    var n10 = 1000000
+    var suluç = n9 / n10
+    resul.innerHTML = ` ${n9} Quilômetro(s) equivale a <strong> ${suluç.toExponential(0.1) }<strong/> Gigametro(s) `
+}
+        function div () {
+    var tn11 = window.document.getElementById('txtn11')
+    var tn12 = window.document.getElementById('txtn12')
+    var result = window.document.getElementById('result')
+    var n11 = Number(tn11.value)
+    var n12 = 1000000000
+    var suluça = n11 / n12
+    result.innerHTML=` ${n11} Quilômetro(s)  equivale a <strong> ${suluça.toExponential(0.1)} <strong/> Terametro(s)`
+}
+
+        function nano () {
+    var tn13 = window.document.getElementById('txtn13')
+    var tn14 = window.document.getElementById('txtn14')
+    var resulta = window.document.getElementById('resulta')
+    var n13 = Number(tn13.value)
+    var n14 = 1000000000000
+    var suluçao = n13 / n14
+    resulta.innerHTML=`${n13} Quilômetro(s) equivale a <strong> ${suluçao.toExponential(0.1)} <strong/> Petametro(s)`
+}
+
+        function pic () {
+    var tn15 = window.document.getElementById('txtn15')
+    var tn16 = window.document.getElementById('txtn16')
+    var resultad = window.document.getElementById('resultad')
+    var n15 = Number(tn15.value)
+    var n16 =1000000000000000
+    var suluçao1 = n15 / n16
+    resultad.innerHTML=` ${n15} Quilômetro(s) equivale a <strong> ${suluçao1.toExponential(0.1)} <strong/> Exametro(s)`
+}
+
+function fe () {
+    var tn17 = window.document.getElementById('txtn17')
+    var tn18 = window.document.getElementById('txtn18')
+    var resultado = window.document.getElementById('resultado')
+    var n17 = Number(tn17.value)
+    var n18 = 1000000000000000000
+    var suluçao12 = n17 / n18
+    resultado.innerHTML=` ${n17} Quilômetro(s) equivale a <strong> ${suluçao12.toExponential(0.1)} <strong/> Zettametro(s)`
+}
+
+function att () {
+    var tn19 = window.document.getElementById('txtn19')
+    var tn20 = window.document.getElementById('txtn20')
+    var resultado1 = window.document.getElementById('resultado1')
+    var n19 = Number(tn19.value)
+    var n20 = 1000000000000000000000
+    var suluçao123 = n19 / n20 
+    resultado1.innerHTML=` ${n19} Quilômetro(s) equivale a <strong> ${suluçao123.toExponential(0.1)} <strong/> Yottametro(s)`
+}
+    </script>
+
+<br/><br/><br/><br/><br/><h4 id="co">Quilômetro</h4>
+<h4 id="s">O que é</h4>
+<h5 id="c">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;O Quilômetro, cujo símbolo é o (km), consiste numa unidade da grandeza física de comprimento. É um múltiplo do metro.
+        No sistema internacional de unidades (SI).
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Quilometro resulta da combinação do prefixo quilo que significa ("mil") com o sufixo metro, razão que um quilometro equivale a mil metros.
+        Costumamos usar o quilometro para medir ruas, estradas, distancias entre cidades e distancias entre países.
+        
+        <br/><br/><br/><br/><h4 id="conta">Como Converter ?</h4>
+    <h5 id="c">
+        
+  
+          1 Quilômetro > Megametro ?
+        <br/>1 / 1000
+        <br/>1 Quilômetro equivale a  1e-3 ou 0.001 Megametro. <br/>
+        <br/>
+        <br/>
+        1 Quilômetro > Gigametro  ?
+        <br/>1 / 1000000
+        <br/>1 Quilômetro equivale a  1e-6 ou 0.000001 Gigametro. <br/>
+        <br/>
+        <br/>
+        1 Quilômetro > Terametro ?
+        <br/>1 / 1000000000
+        <br/>1 Quilômetro equivale a  1e-9 ou 0.000000001 Terametro. <br/>
+        <br/>
+        <br/>
+        1 Quilômetro > Petametro ?
+        <br/>1 / 1000000000000
+        <br/>1 Quilômetro equivale a  1e-12 ou 0.000000000001 Petametro. <br/>
+        <br/>
+        <br/>
+        1 Quilômetro > Exametro ?
+        <br/>1 / 1000000000000000
+        <br/>1 Quilômetro equivale a  1e-15 ou 0.000000000000001 Exametro. <br/>
+        <br/>
+        <br/>
+        1 Quilômetro > Zettametro ?
+        <br/>1 / 1000000000000000000
+        <br/>1 Quilômetro equivale a 1e-18 ou 0.000000000000000001 Zettametro. <br/>
+        <br/>
+        <br/>
+        1 Quilômetro > Yottametro ?
+        <br/>1 / 1000000000000000000000
+        <br/>1 Quilômetro equivale a 1e-21 ou 0.000000000000000000001 Yottametro.
+    
+    </h5>
+    
+<footer id="rodapee">
+    <p>Copyright &copy; 2020 - by Felipe Moura <br/>
+      <a id="ins" href="http://instagram.com/felipe_mouraaa" target="blank">instagram</a>
+  </p>
+</footer>
+
+
+    <script src="controller/KmmController.js"></script>
+    <script src="kmm.js"></script>
+</body>
+<html>

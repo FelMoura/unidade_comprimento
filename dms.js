@@ -1,0 +1,1 @@
+window.dms = new DmsController();

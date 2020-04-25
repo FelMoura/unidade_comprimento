@@ -1,0 +1,1 @@
+window.cmm = new CmmController();

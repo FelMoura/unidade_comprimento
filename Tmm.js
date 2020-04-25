@@ -1,0 +1,1 @@
+window.tmm = new TmmController();

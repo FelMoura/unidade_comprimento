@@ -1,0 +1,1 @@
+window.hms = new HmsController();

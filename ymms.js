@@ -1,0 +1,1 @@
+window.ymms = new YmmsController();

@@ -1,0 +1,247 @@
+@charset "UFT-8"
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+h1#titulo{
+font: bold 30px Verdana;
+ color: yellow;/*aqui ja estamos editando o google glass la em cima sua cor etc
+text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+text-align: center;
+
+
+    /*color: #e6bc35; aqui e uma outra opçao de cor para o titulo ver direito depois*/
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    text-align: center;
+    margin-top: 20px;
+  
+         
+}
+
+body{
+ font: bold 15pt Verdana;
+ color: #b2ee0d;
+ background-color: rgb(3, 25, 32);
+ padding: 10px;
+ margin-top: 10px; 
+
+}
+
+
+input#button1 {
+    width : 100px
+}
+
+input#button2 {
+    width : 100px
+}
+
+input#button3 {
+    width : 100px
+}
+
+input#button4 {
+    width : 100px
+}
+
+input#button5 {
+    width : 100px
+}
+
+input#button6 {
+    width : 100px
+}
+
+input#button7 {
+    width : 100px
+}
+
+input#button8 {
+    width : 100px
+}
+
+input#button9 {
+    width : 100px
+}
+
+input#button10 {
+    width : 100px
+}
+
+input#button11 {
+    width : 100px
+}
+
+input#button12 {
+    width : 100px
+}
+input#button13 {
+    width : 100px
+}
+input#button14 {
+    width : 100px
+}
+input#button15{
+    width: 100px;
+}
+input#button16{
+    width: 100px;
+}
+input#button17{
+    width: 100px;
+}
+input#button18{
+    width: 100px;
+}
+input#button19{
+    width: 100px;
+}
+input#button20{
+    width: 100px;
+}
+
+
+
+input{
+    font: normal 18pt arial;
+    width: 350px;
+}
+
+
+div#r {
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+
+    
+}
+
+div#re {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#res {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resu {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resul {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#result {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resulta {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultad {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado {
+    color:   orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado1 {
+    color:  orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div#resultado12 {
+    color:  orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div#resultado123 {
+    color:  orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado1234 {
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado12345{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado123456{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado1234567{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado12345678{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado123456789{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado1234567890{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+div#resultado12345678901{
+    color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+h4#co{
+    text-align: center;
+    font: bold 30px Verdana;
+    color: yellow;
+    font-style: oblique;
+}
+h4#m{
+    color: yellow;
+}
+h4#s{
+    text-align: center;
+}
+h5#c{
+    color: white;
+}
+footer#rodapee{
+    text-decoration: none;
+    text-align: center;
+    color: yellowgreen;
+
+}
+a#ins{
+    font: verdana 20px;
+    color: yellowgreen;
+    text-decoration: none;
+}
+h4#conta{
+    text-align: center;
+
+}
+

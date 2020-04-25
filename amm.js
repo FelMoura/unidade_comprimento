@@ -1,0 +1,1 @@
+window.amm = new AmmController();

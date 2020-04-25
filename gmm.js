@@ -1,0 +1,1 @@
+window.gmm = new GmmController();

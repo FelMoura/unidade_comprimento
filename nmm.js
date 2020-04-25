@@ -1,0 +1,1 @@
+window.nmm = new NmmController();

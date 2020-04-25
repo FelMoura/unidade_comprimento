@@ -1,0 +1,1 @@
+window.ems = new EmsController();

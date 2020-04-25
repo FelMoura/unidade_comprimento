@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unidade de Comprimento</title>
+    <link rel="stylesheet" href="colorindoo.css"/>
+</head>
+<body>
+
+    <h1 id="titulo">Convertendo Attômetro para os seus Submúltiplos </h1>
+
+
+
+    
+    <h2 id="yoc">Attômetro(s) para Zeptômetro(s)</h2>
+    <input type="number" name="txtn19" id="txtn19" value="Digite o Valor em Attômetro(s)" placeholder="Digite o Valor em Attômetro(s)"> >
+    <input id="button8" type="button" value="zm" onclick="yoc()" >
+    <div id="resultado1">Resultado</div>
+
+    <wbr/><h2 id="me">Attômetro(s) para Yoctômetro(s)</h2>
+    <input type="number" name="txtn21" id="txtn21" value="Digite o Valor em Attômetro(s)" placeholder="Digite o Valor em Attômetro(s)"> >
+    <input id="button9" type="button" value="ym" onclick="me()" >
+    <div id="resultado12">Resultado</div>
+
+
+
+
+
+    <script>
+
+
+function yoc () {
+
+    var tn19 = window.document.getElementById('txtn19')
+    var tn20 = window.document.getElementById('txtn20')
+    var resultado1 = window.document.getElementById('resultado1')
+    var n19 = Number(tn19.value)
+    var n20 =1000
+    var suluçao123 = n19 * n20
+    resultado1.innerHTML=` ${n19} Attômetro(s) equivale a <strong> ${suluçao123} <strong/> Zeptômetro(s)`
+}
+
+
+function me () {
+
+var tn21 = window.document.getElementById('txtn21')
+var tn22 = window.document.getElementById('txtn22')
+var resultado12 = window.document.getElementById('resultado12')
+var n21 = Number(tn21.value)
+var n22 =1000000
+var suluçao1234 = n21 * n22
+resultado12.innerHTML=` ${n21} Attômetro(s) equivale a <strong> ${suluçao1234} <strong/> Yoctômetro(s)`
+}
+
+    </script>
+
+
+
+
+<br/><br/><br/><br/><br/><h4 id="co">Attômetro</h4>
+<h4 id="s">O que é</h4>
+<h5 id="c">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;O Attômetro, cujo símbolo é o (am), consiste numa unidade da grandeza física de comprimento. É um Submúltiplo do metro.
+        No sistema internacional de unidades (SI).
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Attômetros são a quintilhonésima  parte do metro 1/1 000 000 000 000 000 000, ou seja, um Attômetro equivale a 0.000000000000000001 metros. 
+        
+         
+        <br/><br/><br/><br/><h4 id="conta">Como Converter ?</h4>
+        <h5 id="c">
+
+
+1 Femtômetro > Zeptômetro ?
+<br/>1 x                              1000
+<br/>1 Femtômetro equivale a 1e+3 ou  1000 Zeptômetros.<br/>
+<br/>
+1 Femtômetro > Yoctômetro ?
+<br/>1 x                             1000000
+<br/>1 Femtômetro equivale a 1e+6 ou 1000000 Yoctômetros.
+
+</h5>
+<footer id="rodapee">
+    <p>Copyright &copy; 2020 - by Felipe Moura <br/>
+    <a id="ins" href="http://instagram.com/felipe_mouraaa" target="blank">instagram</a>
+    </p>
+    </footer>
+    
+
+
+
+    <script src="controller/AmsController.js"></script>
+    <script src="ams.js"></script>
+</body>
+<html>

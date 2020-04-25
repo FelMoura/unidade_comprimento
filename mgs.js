@@ -1,0 +1,1 @@
+window.mgs = new MgsController();

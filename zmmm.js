@@ -1,0 +1,1 @@
+window.zmmm = new ZmmmController();

@@ -1,0 +1,2 @@
+window.dmm = new DmmController();
+
