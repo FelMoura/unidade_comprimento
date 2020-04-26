@@ -1,3 +1,38 @@
+#body{
+    width: 1200px;
+    height: 1200px;
+
+}
+@media screen and (max-width:800px){
+    #body{
+        width: 600px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:600px){
+    #body{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:400px){
+    #body{
+        width: 200px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:200px){
+    #body{
+        width: 100px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:100px){
+    #body{
+        width: 50px;
+        height: 400px;
+    }
+}
 
 
 h1#titulo{
@@ -9,7 +44,6 @@ text-align: center;
 
     /*color: #e6bc35; aqui e uma outra opçao de cor para o titulo ver direito depois*/
     text-transform: uppercase;
-    white-space: nowrap;
     margin-block-start: 2em;
     margin-block-end: 2em;
     text-align: center;
@@ -28,7 +62,7 @@ body{
 }
 h2#Ym{
     text-align: center;
-    color: orange;
+    color: orange
     
 }
 h2#Zm{
